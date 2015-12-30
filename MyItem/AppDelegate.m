@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "LDYViewController.h"
+#import "MYClass.h"
 
 @interface AppDelegate ()
 
@@ -19,6 +20,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     //#######
     //15171717117
+    // 我是 developer 分支的内容
+    NSLog(@"我是 git developer 分支");
+    MYClass *myClass = [MYClass new];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     LDYViewController *tabbarController = [[LDYViewController alloc] init];

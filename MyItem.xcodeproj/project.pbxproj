@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AAD1A941C33C5310091CF16 /* Developer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAD1A931C33C5310091CF16 /* Developer.m */; };
+
+		0AAD1A971C33C70D0091CF16 /* MYClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAD1A961C33C70D0091CF16 /* MYClass.m */; };
+
 		950B55E51C1ED8420001DA56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 950B55E41C1ED8420001DA56 /* main.m */; };
 		950B55E81C1ED8420001DA56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 950B55E71C1ED8420001DA56 /* AppDelegate.m */; };
 		950B55EB1C1ED8420001DA56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 950B55EA1C1ED8420001DA56 /* ViewController.m */; };
@@ -130,8 +132,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AAD1A921C33C5310091CF16 /* Developer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Developer.h; sourceTree = "<group>"; };
-		0AAD1A931C33C5310091CF16 /* Developer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Developer.m; sourceTree = "<group>"; };
+
+		0AAD1A951C33C70D0091CF16 /* MYClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYClass.h; sourceTree = "<group>"; };
+		0AAD1A961C33C70D0091CF16 /* MYClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYClass.m; sourceTree = "<group>"; };
+
 		3D4AA5F0FFAC522736C8FD72 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		950B55E01C1ED8420001DA56 /* MyItem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyItem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		950B55E41C1ED8420001DA56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -341,6 +345,8 @@
 				950B55E71C1ED8420001DA56 /* AppDelegate.m */,
 				950B55E91C1ED8420001DA56 /* ViewController.h */,
 				950B55EA1C1ED8420001DA56 /* ViewController.m */,
+				0AAD1A951C33C70D0091CF16 /* MYClass.h */,
+				0AAD1A961C33C70D0091CF16 /* MYClass.m */,
 				950B55EC1C1ED8420001DA56 /* Main.storyboard */,
 				950B55EF1C1ED8420001DA56 /* Assets.xcassets */,
 				950B55F11C1ED8420001DA56 /* LaunchScreen.storyboard */,
@@ -813,6 +819,7 @@
 				950B55EB1C1ED8420001DA56 /* ViewController.m in Sources */,
 				955C2D031C201B2500EC4623 /* WKNewCarView.m in Sources */,
 				95A9CC701C22F42000E98902 /* FavoriteModel.m in Sources */,
+				0AAD1A971C33C70D0091CF16 /* MYClass.m in Sources */,
 				950B55E81C1ED8420001DA56 /* AppDelegate.m in Sources */,
 				950B561B1C1ED9800001DA56 /* LDYViewController.m in Sources */,
 				95A9CC6F1C22F42000E98902 /* HDModel.m in Sources */,
