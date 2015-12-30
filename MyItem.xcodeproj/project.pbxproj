@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AAD1A941C33C5310091CF16 /* Developer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAD1A931C33C5310091CF16 /* Developer.m */; };
 		950B55E51C1ED8420001DA56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 950B55E41C1ED8420001DA56 /* main.m */; };
 		950B55E81C1ED8420001DA56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 950B55E71C1ED8420001DA56 /* AppDelegate.m */; };
 		950B55EB1C1ED8420001DA56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 950B55EA1C1ED8420001DA56 /* ViewController.m */; };
@@ -129,6 +130,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AAD1A921C33C5310091CF16 /* Developer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Developer.h; sourceTree = "<group>"; };
+		0AAD1A931C33C5310091CF16 /* Developer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Developer.m; sourceTree = "<group>"; };
 		3D4AA5F0FFAC522736C8FD72 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		950B55E01C1ED8420001DA56 /* MyItem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyItem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		950B55E41C1ED8420001DA56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -394,6 +397,8 @@
 				950B56271C1EDC150001DA56 /* NewCarViewController.m */,
 				950B56291C1EDC3D0001DA56 /* HotViewController.h */,
 				950B562A1C1EDC3D0001DA56 /* HotViewController.m */,
+				0AAD1A921C33C5310091CF16 /* Developer.h */,
+				0AAD1A931C33C5310091CF16 /* Developer.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -820,6 +825,7 @@
 				955C2D001C20161E00EC4623 /* NewCarCell.m in Sources */,
 				955C2CFD1C20129700EC4623 /* NewCarModel.m in Sources */,
 				95A9CB971C2256E800E98902 /* NSString+Common.m in Sources */,
+				0AAD1A941C33C5310091CF16 /* Developer.m in Sources */,
 				95A9CB9D1C22668200E98902 /* JWCache.m in Sources */,
 				950B56931C1F0F010001DA56 /* DetailModel.m in Sources */,
 				95A9CC6E1C22F42000E98902 /* DBManager.m in Sources */,
